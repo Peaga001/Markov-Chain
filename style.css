@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+table{
+    width: 50vw;
+    height: 50vh;
+    position: fixed;
+    top: 15vh;
+    left: 25vw;
+
+}
+
+td{
+    border: 5px solid black;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+h1{
+    color: black;
+    font-size: 35px;
+}
+
+strong{
+    color: blueviolet;
+}
+button{
+    position: fixed;
+    width: 20vw;
+    height: 10vh;
+    top: 75vh;
+    left: 40vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 33px;
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+p{
+    position: fixed;
+    display: none;
+    top: 65vh;
+    left: 45vw;
+    font-size: 20px;
+}
+
+#div_start {
+    width: 10vw;
+    height: 50vh;
+    position: fixed;
+    top: 15vh;
+    left: 10vw;
+    background-color: brown;
+    border: 5px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+#div_end {
+    width: 10vw;
+    height: 50vh;
+    position: fixed;
+    top: 15vh;
+    left: 80vw;
+    background-color: rgb(78, 21, 153);
+    border: 5px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}

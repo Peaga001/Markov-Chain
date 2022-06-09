@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Markov Chain</title>
+
+    <!--Styles-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Markov Chain <strong>(Round 6)</strong></h1><br>
+
+    <div id="div_start">I<br>N<br>I<br>C<br>I<br>O</div>
+
+    <table id="table">
+        <tr id="l_0">
+            <td id="0_c_0" name="0" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="0_c_1" name="1" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="0_c_2" name="2" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="0_c_3" name="3" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="0_c_4" name="4" class="r" onclick="walkNextHouse(this)"></td>
+        </tr>
+        <tr id="l_1">
+            <td id="1_c_0" name="0" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="1_c_1" name="1" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="1_c_2" name="2" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="1_c_3" name="3" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="1_c_4" name="4" class="r" onclick="walkNextHouse(this)"></td>
+        </tr>
+        <tr id="l_2">
+            <td id="2_c_0" name="0" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="2_c_1" name="1" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="2_c_2" name="2" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="2_c_3" name="3" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="2_c_4" name="4" class="r" onclick="walkNextHouse(this)"></td>
+        </tr>
+        <tr id="l_3">
+            <td id="3_c_0" name="0" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="3_c_1" name="1" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="3_c_2" name="2" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="3_c_3" name="3" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="3_c_4" name="4" class="r" onclick="walkNextHouse(this)"></td>
+        </tr>
+        <tr id="l_4">
+            <td id="4_c_0" name="0" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="4_c_1" name="1" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="4_c_2" name="2" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="4_c_3" name="3" class="r" onclick="walkNextHouse(this)"></td>
+            <td id="4_c_4" name="4" class="r" onclick="walkNextHouse(this)"></td>
+        </tr>
+    </table> <br>
+
+    <div id="div_end">F<br>I<br>M</div>
+
+    <p id="msg_user"></p>
+
+    <button id="button" onclick="restart()">Reiniciar</button>
+    
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
